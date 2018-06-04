@@ -1,0 +1,49 @@
+/* housekeeping
+our"housekeeping" is premade code that developers use ver and over again */
+/*  Makes all Html elements include the border and padding inside the width and the height*/
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Arial,sans-serif;
+}
+/*  Make sre all images don't break outside to their containers*/
+img{
+  width: 100%;
+  height: auto;
+}
+/*  make the footer go to the bottom of the page regardless of screen size*/
+.content-wrapper{
+  min-height: 80vh;
+}
+/*  vh and vw represent the view height and the view width - this just means that they detect the user's screen size*/
+/*  General container class - use on any HTML element to make constrained container*/
+.container{
+  max-width: 1000px;
+  margin: auto;
+}
+/*  Convenient text centering class*/
+.text-center{
+  text-align: center;
+}
+/*  cneter block elements*/
+.center-block{
+  display: block;
+  margin: auto;
+
+}
+/*  create horizontal columns*/
+.column{
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+.clearfix{
+  clear: both;
+}
+footer{
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
